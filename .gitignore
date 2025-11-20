@@ -1,0 +1,25 @@
+# Ignore dataset images
+dataset/train/
+dataset/valid/
+dataset/test/
+
+# Ignore YOLO runs
+runs/
+
+# Ignore model weights
+*.pt
+*.pth
+*.onnx
+*.zip
+
+# Python cache
+__pycache__/
+*.pyc
+
+# VSCode
+.vscode/
+
+# Virtual environments
+venv/
+.venv/
+env/
