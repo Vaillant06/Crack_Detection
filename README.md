@@ -1,4 +1,4 @@
-### Crack Detection using YOLOv8 Segmentation
+# Crack Detection using YOLOv8 Segmentation
 
 This project implements a crack-detection system using YOLOv8 Segmentation, trained to identify and outline cracks on surfaces such as roads, pavements, walls, and other concrete structures.
 The model outputs segmentation masks that follow the crack exactly — not just bounding boxes.
@@ -47,40 +47,40 @@ dataset/
     └── labels/
 
 
-### Installation
+## Installation
 
-# 1. Clone your repository
+### 1. Clone your repository
 git clone https://github.com/<your-username>/crack_detection_yolov8.git
 cd crack_detection_yolov8/Crack_Detection
 
 
-# 2. Install dependencies
+### 2. Install dependencies
 pip install -r requirements.txt
 
 
-# 3. Start Training
+### 3. Start Training
 python train_model.py
 
 
-# 4. Training outputs go to:
+### 4. Training outputs go to:
 runs/segment/train*/
 
 
-# 5. Update train_model.py to load the last checkpoint:
+### 5. Update train_model.py to load the last checkpoint:
 model = YOLO("runs/segment/train2/weights/last.pt")
-# Or resume from the best model:
+### Or resume from the best model:
 model = YOLO("runs/segment/train2/weights/best.pt")
 
 
-# 6. Then run:
+### 6. Then run:
 python train_model.py
 
 
-# 7. To test the model:
+### 7. To test the model:
 python test_model.py
 
 
-# 8. Prediction images will be saved here:
+### 8. Prediction images will be saved here:
 runs/segment/predict/
 
 
@@ -97,11 +97,11 @@ OpenCV
 Roboflow
 
 
-### License
+# License
 This project is intended for educational and research purposes.
 Feel free to modify, extend, and build upon it.
 
 
-### Acknowledgements
+# Acknowledgements
 Dataset processed using Roboflow
 YOLOv8 by Ultralytics
