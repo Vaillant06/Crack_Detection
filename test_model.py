@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-MODEL_PATH = "runs/segment/train2/weights/last.pt"  # or best.pt
+MODEL_PATH = "runs/segment/train2/weights/last.pt" 
 
 TEST_SOURCE = "test.jpg"
 

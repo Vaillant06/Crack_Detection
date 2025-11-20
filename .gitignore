@@ -23,3 +23,6 @@ __pycache__/
 venv/
 .venv/
 env/
+
+# test folder
+test_images
