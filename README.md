@@ -6,7 +6,7 @@ The model outputs segmentation masks that follow the crack exactly — not just 
 
 ## Features
 
-YOLOv8s-seg segmentation model
+1. YOLOv8s-seg segmentation model
 
 Pixel-level crack boundary detection
 
