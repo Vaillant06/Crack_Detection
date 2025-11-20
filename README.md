@@ -7,16 +7,11 @@ The model outputs segmentation masks that follow the crack exactly — not just 
 ## Features
 
 1. YOLOv8s-seg segmentation model
-
-Pixel-level crack boundary detection
-
-Resume-training support
-
-Prediction with confidence scores
-
-CPU-friendly training configuration
-
-Clean dataset format (train / valid / test)
+2. Pixel-level crack boundary detection
+3. Resume-training support
+4. Prediction with confidence scores
+5. CPU-friendly training configuration
+6. Clean dataset format (train / valid / test)
 
 
 ## Project Structure
