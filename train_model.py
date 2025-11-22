@@ -1,6 +1,6 @@
 from ultralytics import YOLO
 
-model = YOLO("runs/segment/train2/weights/last.pt")
+model = YOLO("runs/segment/train/weights/last.pt")
 
 data_path = "dataset/data.yaml"
 
