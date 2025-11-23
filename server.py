@@ -162,7 +162,7 @@ def yolo_thread():
             continue
 
         try:
-            results = model(frame, conf=0.4, show=False)
+            results = model(frame, conf=0.3, show=False)
         except:
             traceback.print_exc()
             time.sleep(YOLO_INTERVAL)

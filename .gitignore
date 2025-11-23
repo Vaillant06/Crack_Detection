@@ -13,7 +13,7 @@ runs/
 *.zip
 
 # JSON File
-.json
+cumulative_stats.json
 
 # Python cache
 __pycache__/
