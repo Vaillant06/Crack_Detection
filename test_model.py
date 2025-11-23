@@ -2,7 +2,7 @@ from ultralytics import YOLO
 
 MODEL_PATH = "../crack_detection/runs/segment/train2/weights/best.pt" 
 
-TEST_SOURCE = "test_images/30.jpg"
+TEST_SOURCE = "test_images"
 
 
 print(f"\nLoading model from: {MODEL_PATH}")

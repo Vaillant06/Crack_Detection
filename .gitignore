@@ -12,6 +12,9 @@ runs/
 *.onnx
 *.zip
 
+# JSON File
+.json
+
 # Python cache
 __pycache__/
 *.pyc
@@ -23,6 +26,7 @@ __pycache__/
 venv/
 .venv/
 env/
+
 
 # test folder
 test_images
